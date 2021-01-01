@@ -1,0 +1,11 @@
+.button {
+    border-radius: 5px;
+    color: #1f2833;
+    border-color: #1f2833;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    &:hover {
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,37 @@
+.container {
+    background-color:#1f2833; 
+    padding: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c5c6c7;
+  margin-bottom: 10px;
+}
+
+.paraHead {
+    font-size: 40px;
+    color: #c5c6c7;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.middleParag {
+    font-size: 26px;
+    display: flex;
+    color: #c5c6c7;
+    padding: 0 200px;
+   
+}
+
+.smallParag {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        align-content: center;
+        padding: 0 220px;
+        color: #c5c6c7;
+}

@@ -1,0 +1,81 @@
+.comments {
+    padding: 50px;
+}
+
+.imageWrapper {
+    position: relative;
+    display: flex;
+    padding-top: 10%;
+    overflow: hidden;
+    line-height: 0;
+    width: 10%;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.wrapper {
+    width: 40%;
+    padding: 10px;
+}
+
+.author {
+    color: #c4c6c7;
+    margin-left: 10px;
+}
+
+.creatAt {
+    color: #45a29e;
+}
+
+.creatAtone {
+    margin-top: 10px;
+   color: #45a29e;
+   border: solid 1px #c5c6c7;
+   padding: 5px;
+}
+
+.commentField {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentTitle {
+    color: #c5c6c7;
+    margin-bottom: 10px;
+}
+
+.likeButton {
+    color: #45a29e;
+    background-color: #1f2833;
+    background:none;
+    border:none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding:0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.input {
+    background-color: #c5c6c7;
+    color: #1f2833;
+    &::placeholder {
+        color: rgba(0, 0, 0, 0.4);
+    }
+    margin-bottom: 20px;
+}
+
+.imgText {
+    display: flex;
+    padding-bottom: 10px;
+}

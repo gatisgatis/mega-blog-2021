@@ -1,0 +1,92 @@
+.card {
+  background-color: #1f2833;
+  position: relative;
+  padding-top: 10px;
+}
+
+.locationLog {
+  margin: 20px;
+  padding-top: 20px;
+  color: #c5c6c7;
+}
+
+.title {
+  margin: 20px;
+  color: #45a29e;
+  &:hover {
+    color: #66fcf1;
+  }
+}
+
+.infoWrapper {
+  display: flex;
+}
+
+.info {
+  margin-left: 20px;
+  color: #45a29e;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageWrapper {
+  position: relative;
+  display: flex;
+  padding-top: 45%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.parag {
+  color: #c5c6c7;
+  margin: 30px;
+  padding: 0 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.homeButton {
+  display: flex;
+  justify-content: center;
+}
+
+.editPost {
+  padding: 20px;
+}
+
+.textarea {
+  width: 100%;
+  height: 20px;
+}
+
+.textareaText {
+  width: 100%;
+  height: 200px;
+}
+
+.editSpan {
+  color: #45a29e;
+}
+
+.editHeading {
+  margin: 20px;
+  color: #45a29e;
+  size: 25px;
+}
+
+.adminButtons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 20px;
+}

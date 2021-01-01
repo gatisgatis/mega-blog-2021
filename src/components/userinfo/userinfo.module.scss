@@ -1,0 +1,48 @@
+.container {
+    background-color: #1f2833;
+    display: flex;
+}
+
+.UsernameInfo {
+    
+    flex-basis: 30%;
+    padding: 4%;
+}
+
+.username {
+    color: #c5c6c7;
+    margin-top: 10px;
+}
+
+.info {
+    
+    flex-basis: 70%;
+    display: flex;
+  }
+
+.infoWrapper {
+    padding: 6%;
+}
+
+.infoText {
+    color: #c5c6c7;
+    margin-top: 10px;
+}
+
+.imageWrapper {
+    width: 50%;
+    padding: 7%;
+}
+
+.image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.smallTags {
+    display: flex;
+    flex-direction: column;
+}

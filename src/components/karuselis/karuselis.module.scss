@@ -1,0 +1,64 @@
+.karuselis {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.arrowsWrapper {
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+padding: 10px;
+}
+
+.arrow {
+font-size: 30px;
+opacity: 20%;
+cursor: pointer;
+transition: opacity 0.2s;
+&:hover {
+    opacity: 60%;
+}
+}
+
+.textRadioWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.textWrapper {
+padding: 10px;
+background-color: rgba(0,0,0,0.5);
+color: white;
+cursor: pointer;
+&:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+}
+
+.header {
+
+}
+
+.parag {
+
+}
+
+.radioWrapper {
+display: flex;
+justify-content: center;
+}
+
+.radio {
+    margin: 3px;
+}
+
+.loading {
+    width: 100%;
+    height: 250px;
+}

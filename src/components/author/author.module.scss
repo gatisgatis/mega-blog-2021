@@ -1,0 +1,28 @@
+.authorWrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border: solid 1px #45a29e;
+}
+
+.imageWrapper {
+    position: relative;
+    display: flex;
+    padding-top: 5%;
+    overflow: hidden;
+    line-height: 0;
+    width: 5%;
+}
+.nameRatingWrapper {
+    align-items: center;
+    margin-left: 20px;
+    color: #C5c6c7;
+}

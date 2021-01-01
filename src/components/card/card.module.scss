@@ -1,0 +1,70 @@
+.card {
+width: 100%;
+border: solid 0.5px #66fcf1;
+padding: 25px;
+background-color: #1f2833;
+margin-top: 20px;
+box-shadow: 48px 56px 80px -12px rgba(31,40,51,0.79);
+}
+
+.heading {
+    color: #45a29e;
+    cursor: pointer;
+
+&:hover {
+color:#66fcf1;
+
+}
+}
+
+.smallHeadingWrapper {
+display: flex;
+justify-content: space-around;
+color: #c5c6c7;
+margin-top: 20px;
+}
+
+.cardBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgWrapper {
+    position: relative;
+    flex-basis: 40%;
+    display: flex;
+    padding-top: 20%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: 20px;
+    min-width: 250px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.paragWrapper {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.parag {
+color:#c5c6c7 ;
+}
+
+.buttonWrapp {
+    align-self: flex-end;
+    padding-top: 20px;
+    
+}

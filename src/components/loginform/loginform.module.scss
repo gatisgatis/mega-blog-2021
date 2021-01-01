@@ -1,0 +1,25 @@
+.input {
+    background-color: #1f2833;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    text-decoration-color: #45a29e ;
+    padding: 5px;
+    cursor: pointer;
+    color: #66fcf1;
+    &::placeholder {
+        color: rgba(200, 200, 200, 0.3);
+    }
+}
+
+
+.button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header {
+    color: #66fcf1;
+}
+
